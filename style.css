@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(33, 33, 37);
+}
+.cont{
+    width: 800px;
+    height: 600px;
+    background-color: rgb(7, 128, 241);
+    margin: 40px auto;
+    border-radius: 5px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.inner{
+    background-color: #fff;
+    width: 600px;
+    height: 500px;
+   
+    border-radius: 5px;
+    box-shadow: -3px -3px 10px 10px rgba(102, 100, 100, 0.658);
+ 
+}
+.text{
+    /* background-color: darkgreen; */
+    font-style: italic;
+    font-family: Dancing Script;
+    font-size: 25px;
+    color: rgb(112, 108, 108);
+    margin-top: 40px;
+    /* box-shadow: -10px -10px 10px 10px darkgray; */
+    width: 560px;
+    height: 300px;
+    padding: 20px;
+    
+}
+.start-quote{
+    color: darkgray;   
+    font-size: 60px;
+    
+}
+#tweetMe{
+    width: 40px;
+    height: 40px;
+   
+}
+#img{
+    width: 40px;
+    height: 40px;   
+    margin-left:560px;
+}
+#author{
+    /* margin-left: 100px; */
+    text-align: center;
+}
+#quotes{
+    text-align: center;
+}
+#newQ{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(8, 104, 168);
+    width: 600px;
+    height: 60px;
+    margin-top: 20px;
+  
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  
+    font-family: Ubuntu;
+    font-weight: 1000; 
+    
+   
+}
+#newQ:hover{
+    background-color: rgb(6, 88, 143);
+}
+/* #img::before{
+    content: "";
+    position: absolute;
+    top:-130px;
+    right: -30px;
+    width:90px;
+    height:200px;
+    background-color: teal;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    z-index: -1;
+    box-shadow: 0 0 0.7px darkgray;
+
+} */
+
